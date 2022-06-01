@@ -1,0 +1,51 @@
+{
+    "signup_happy_scenario": {
+        "name": "John Escrevennon",
+        "cpf": "14109838746",
+        "email": "escrevennon@john.com",
+        "whatsapp": "11988888888",
+        "address": {
+            "postalcode": "06340-390",
+            "street": "Rua Francisco Abruzzesse",
+            "number": "1003",
+            "details": "Ap 007",
+            "city_state": "Carapicuíba/SP",
+            "district": "Parque Santa Teresa"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh.jpg"
+    },
+
+    "signup_alt_scenario_cpf_inv": {
+        "name": "Cadastro Alternativo",
+        "cpf": "40030294AA",
+        "email": "cpfincorreto@example.com",
+        "whatsapp": "11988884388",
+        "address": {
+            "postalcode": "06340-390",
+            "street": "Rua Francisco Abruzzesse",
+            "number": "1003",
+            "details": "Ap 007",
+            "city_state": "Carapicuíba/SP",
+            "district": "Parque Santa Teresa"
+        },
+        "delivery_method": "Bike Elétrica",
+        "cnh": "cnh.jpg"
+    },
+    "signup_alt_scenario_email_inv": {
+        "name": "Cadastro Alternativo",
+        "cpf": "12345678921",
+        "email": "email-incorrect.br",
+        "whatsapp": "11943884388",
+        "address": {
+            "postalcode": "06340-390",
+            "street": "Rua Francisco Abruzzesse",
+            "number": "1003",
+            "details": "Ap 007",
+            "city_state": "Carapicuíba/SP",
+            "district": "Parque Santa Teresa"
+        },
+        "delivery_method": "Van/Carro",
+        "cnh": "cnh.jpg"
+    }
+}
